@@ -111,6 +111,17 @@ img {
 
 button {
   width: 100px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  padding: 10px 20px;
+}
+
+.front-left .front-button {
+  border: none;
+  outline: none;
 }
 
 .title {
@@ -124,6 +135,28 @@ button {
   font-weight: 900;
   color: #1F2937;
 }
+
+.blue-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+  margin: 80px 100px;
+}
+
+.sign-up-left {
+  color: white;
+}
+
+.sign-up-title {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.blue-button {
+  border: white;
+}
+
+
 
 ul {
   list-style-type: none;
