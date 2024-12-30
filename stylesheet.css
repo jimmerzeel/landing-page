@@ -5,9 +5,37 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 1400px;
 }
 
-.header, .footer {
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 100px;
+}
+
+.front {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 100px;
+}
+
+.front-left {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 8px;
+}
+
+img {
+  width: 500px;
+  height: 250px;
+}
+
+.header, .footer, .front {
   background-color: #1F2937;
 }
 
@@ -35,6 +63,10 @@ body {
   background-color: #3882F6;
 }
 
+button {
+  width: 100px;
+}
+
 .title {
   color: #F9FAF8;
   font-size: 48px;
@@ -49,4 +81,6 @@ body {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
