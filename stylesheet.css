@@ -156,7 +156,13 @@ button {
   border: white;
 }
 
-
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: white;
+}
 
 ul {
   list-style-type: none;
